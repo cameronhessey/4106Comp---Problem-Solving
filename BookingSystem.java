@@ -1,5 +1,5 @@
 //Collected all of my imports needed in my program which includes reading from the scanner and file as well as writing to the file as well as the Array list
-import java.io.FileNotFoundException;
+import java.io.FileNotFoundException;fff
 import java.io.FileReader;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -80,7 +80,7 @@ public class BookingSystem {
 			withLounge = false;
 		}
 //I made a budget counter where the program would display every room under the price that the user entered. It loops if they enter a negative value
-		System.out.print("What is your maximum budget?:\n£");
+		System.out.print("What is your maximum budget?:\nÂ£");
 		float maxBudget = console.nextFloat();
 		while (maxBudget < 0) {
 			System.out.println("Invalid budget, Try again:");
